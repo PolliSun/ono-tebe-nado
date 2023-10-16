@@ -8,6 +8,9 @@ body {
   min-width: 1100px;
   margin: 0;
   font-family: Raleway, sans-serif;
+  width: 1440px;
+  height: 2844px;
+  border: 1px solid #fa0101;
 }
 
 h1,
@@ -32,3 +35,4 @@ a {
 img {
   width: 100%;
 }
+
