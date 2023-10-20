@@ -19,19 +19,6 @@ body {
   padding-top: 4px;
 }
 
-.header__link {
-  color: #000;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-  font-style: normal;
-}
-
-.header__links-list {
-  display: flex;
-  gap: 32px;
-}
-
 .header__links-list-item_no-bullit {
   list-style: none;
 }
@@ -53,9 +40,31 @@ body {
   height: 105px;
 }
 
+.header__link {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  font-style: normal;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+}
+
 .header__logo-image {
   height: 100%;
   width: 100%;
+}
+
+.address {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  font-style: normal;
+  text-underline-position: under;
 }
 
 .header__address {
@@ -66,15 +75,6 @@ body {
   height: 97px;
   width: 240px;
   text-decoration: none;
-}
-
-.address {
-  color: #000;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-  font-style: normal;
-  text-underline-position: under;
 }
 
 .cover {
@@ -91,7 +91,7 @@ body {
 .cover__title {
   display: flex;
   flex-direction: column;
-  padding: 165px 50px 135px 50px;
+  padding: 166px 50px 135px 50px;
   gap: 20px;
   color: #fff;
   text-transform: uppercase;
@@ -145,12 +145,11 @@ body {
 
 .cover__description-text {
   display: flex;
-  word-spacing: 18px;
+  word-spacing: 18.2px;
   align-items: center;
   color: #fff;
   font-size: 22px;
   font-weight: 400;
-  line-height: 28px;
   text-transform: uppercase;
 }
 
@@ -201,7 +200,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 50px 40px;
-
   z-index: -2;
 }
 
@@ -303,7 +301,6 @@ body {
   display: grid;
   justify-content: space-between;
   grid-template-columns: repeat(5, 1fr);
-
   padding: 0px 50px 90px 50px;
 }
 
@@ -313,6 +310,7 @@ body {
   grid-column-end: 2;
   width: 240px;
   height: 97px;
+
 }
 
 .footer__menu {
@@ -320,6 +318,7 @@ body {
   grid-column-start: 3;
   grid-column-end: 4;
   justify-self: center;
+  text-decoration: none;
 }
 
 .footer__menu-list-item {
@@ -328,6 +327,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-underline-position: under;
 }
 
 .footer__menu-list {
